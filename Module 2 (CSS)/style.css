@@ -1,5 +1,6 @@
 .header{
-    height: 300px;
+    height: 500px;
+   
     /* background-image: url('dog.jpg'); */
     background-image: url('../dog.jpg');
     background-repeat: no-repeat;
