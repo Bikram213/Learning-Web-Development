@@ -1,0 +1,61 @@
+/* *{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(222, 214, 203);
+} */
+p{
+    /* text-align: center; */
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+    width: 50%;
+}
+
+#image1{
+    background-image: url(assets/sky.jpg);
+    /* background-size: 500px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    height: 500px;
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid rgb(174, 152, 111);
+
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(175, 141, 78);    
+}
+
+/* #image2{
+    background-image: url(assets/sky2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    border: 10px solid rgb(178, 162, 142);
+} */
+
+header{
+    background-image: url(assets/sky2.jpg);
+    background-size: 100px;
+    background-position: center;
+    height: 200px;
+
+    border-radius: 10px;
+    margin: 50px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px purple;
+
+}
+#image3{
+    background-image: url(assets/image3.jpg);
+    background-size: 100px;
+    height: 500px;
+    /* background-repeat: repeat-x; */
+    background-repeat: repeat-y;
+
+    padding: 50px; /*inside the box*/
+    margin: 30px;
+}

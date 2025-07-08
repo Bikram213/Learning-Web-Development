@@ -1,0 +1,35 @@
+.header{
+    height: 500px;
+   
+    /* background-image: url('dog.jpg'); */
+    background-image: url('../dog.jpg');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* background-size: contain; */
+    background-size: 250px;
+    
+}
+
+h3{
+    font-size: 30px;
+    text-decoration: overline;
+    font-family: 'Courier New', Courier, monospace;
+}
+.blog{
+    margin: 40px;
+    border: 10px solid tomato;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px violet;
+}
+
+.second{
+    /* display: none; */
+    visibility: hidden;
+    
+}
+
+.ipsum{
+    border: 2px solid purple;
+    /* display: block; */
+}
+

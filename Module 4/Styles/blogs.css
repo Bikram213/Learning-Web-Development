@@ -1,0 +1,26 @@
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+}
+
+nav li:hover{
+    background-color: aqua;
+}
+nav li a{
+    /* nav er moddhe list er vitor joto a tag ache */
+   text-decoration: none; 
+}
+
+footer{
+    text-align: center;
+}
+
+figure img{
+    /* height: 500px;
+    width: 500px; */
+    width: 75%;
+    height: 25%;
+    position:relative;
+
+}

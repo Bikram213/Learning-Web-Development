@@ -1,0 +1,12 @@
+.second{
+    border: 5px solid tomato;
+    border-radius: 10px;
+    background-color: white;
+    height: 250px;
+    width: 500px;
+
+    /* margin */
+    margin: 50px 30px 30px; /*T RL B*/
+
+    padding: 50px;
+}

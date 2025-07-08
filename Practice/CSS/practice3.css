@@ -1,0 +1,26 @@
+*{
+   margin: 0px; 
+   padding: 0px;
+}
+body{
+    background-color: #e3f2fd;
+}
+#first{
+    background-color: #ffffff;
+    border: 5px solid tomato;
+    width: 250px;
+    margin: 30px 10px;
+    padding: 20px;
+}
+
+.second{
+    background-color: #ffffff;
+    border: 5px solid tomato;
+    border-radius: 10px;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    color: purple;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+
+}
