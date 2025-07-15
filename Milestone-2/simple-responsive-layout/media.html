@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            /* display: flex;
+            flex-wrap: wrap; */
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+        }
+        .food{
+            border: 1px solid skyblue;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .food img{
+            width: 100%;
+        }
+
+        /* 576 px er kom korle eta 1 column a cole jabe , er beshi hole 3 colum ei thakbe */
+        /* simple media query */
+        @media screen and (max-width:576px) {
+            .container{
+                grid-template-columns:repeat(1,1fr) ;
+            }
+        }
+    </style>
+</head>
+<body>
+     <!-- .container>.food*12>img[src="images/food.jpg"]+h3{food Item - $}+p>{price:\$$00} -->
+    <div class="container">
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h3>food Item - 1</h3>
+            <p>price:$100</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit magni aperiam earum sed similique accusamus fugit dolor. Architecto, similique, minus ducimus dignissimos ad quasi aliquid laboriosam ratione neque numquam adipisci!</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h3>food Item - 2</h3>
+            <p>price:$200</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h3>food Item - 3</h3>
+            <p>price:$300</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h3>food Item - 4</h3>
+            <p>price:$400</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h3>food Item - 5</h3>
+            <p>price:$500</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h3>food Item - 6</h3>
+            <p>price:$600</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h3>food Item - 7</h3>
+            <p>price:$700</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h3>food Item - 8</h3>
+            <p>price:$800</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h3>food Item - 9</h3>
+            <p>price:$900</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h3>food Item - 10</h3>
+            <p>price:$1000</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h3>food Item - 11</h3>
+            <p>price:$1100</p>
+        </div>
+        <div class="food">
+            <img src="images/food.jpg" alt="">
+            <h3>food Item - 12</h3>
+            <p>price:$1200</p>
+        </div>
+    </div>
+</body>
+</html>
