@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food items In other way</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .image1,.image2{
+            display: flex;
+            padding: 10px;
+            margin: 0 auto;
+        }
+        img{
+            margin: 5px;
+            height: 500px;
+            width: 100%;
+            border-radius: 5px;
+            object-fit: cover;
+        }
+
+        @media screen and (max-width:576px) {
+            .image1,.image2{
+                flex-direction: column;
+                padding: 0;
+                margin: 0;
+                width: 100%;
+                
+            }
+            img{
+               height: auto; 
+               width: 100%;     
+                margin: 0;         
+                border-radius: 10px; 
+                display: block;
+            }
+
+            .image2 img{
+                order: 1;
+            }
+            .image2 div{
+                order: 2;
+            }            
+        }
+    </style>
+</head>
+<body>
+    <div class="image1">
+        <img src="food/food1.jpg" alt="">
+        <div>
+            <h3>Why we use it?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis nobis aut quisquam. Voluptatem illum voluptates mollitia. Dolor eum ullam, necessitatibus alias et minus iusto! Cum harum asperiores debitis doloribus sequi, repellat vel veniam ipsam doloremque provident est expedita repellendus incidunt atque amet eligendi reprehenderit earum at impedit et modi. Voluptate!</p>
+        </div>
+    </div>
+    <div class="image2">
+        <div>
+            <h3>Why we use it?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quisquam incidunt impedit officia accusamus beatae doloribus culpa rerum explicabo, dolore illum ducimus porro! Laudantium dolorum quasi dolores earum atque, hic modi. Reiciendis, id? Pariatur provident sapiente neque qui rem quasi, harum sit doloremque iure architecto, cum eum esse quod ipsam.</p>
+        </div>
+        <img src="food/food2.jpg" alt="">
+    </div>
+</body>
+</html>
