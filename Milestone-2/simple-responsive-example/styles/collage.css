@@ -10,9 +10,9 @@ img{
 
 }
 .row >div{
-    flex: 1;
+    flex: 1;/* row er vitor joto div ache soman soman jaiga nive*/
 }
-.vertical-collage{
+.vertical-collage img{
     height: calc((100% - 5px)/2);
 }
 .square-collage{
