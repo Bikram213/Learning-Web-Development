@@ -10,9 +10,8 @@ function noDuplicate (array){
             unique.push(item);
         }
     }
-    return unique
+    return unique;
 }
-
 const uniqueArray = noDuplicate(duplicate);
 console.log(uniqueArray);
 console.log(noDuplicate(numbers));
